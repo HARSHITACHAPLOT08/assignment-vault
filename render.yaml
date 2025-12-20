@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: assignment-vault-backend
+    env: node
+    plan: free
+    repo: <GITHUB_REPO_URL>
+    branch: main
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: AV_SECRET
+        value: <YOUR_SECRET>
+    mounts: []
