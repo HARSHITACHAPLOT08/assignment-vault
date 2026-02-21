@@ -28,8 +28,8 @@ npm.cmd run dev
 Open http://localhost:5173
 
 Default passcodes (for local/demo only)
-- Viewer passcode: `H@rshi`
-- Owner passcode: `ch@plot`
+- Viewer passcode: `H...`
+- Owner passcode: `c...`
 
 Deployment
 - Frontend: build with `npm run build` and host on any static site host (Vercel, Netlify, GitHub Pages). If you use Vercel, configure rewrites or proxy to point `/api` to the backend.
